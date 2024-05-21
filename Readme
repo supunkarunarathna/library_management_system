@@ -1,0 +1,6 @@
+1) Created dto class only for book entity since borrower class doesnt have much functions.
+2) Created two db tables (book, borrower). in book entity it will save borrow date and return date.
+3) Borrower can request a book using isbn number.
+3) When the time book is issued, it checks
+    1) First check whether the book is available in the library using isbn number.
+    2) If the book exist, then check the stocks
