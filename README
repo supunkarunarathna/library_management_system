@@ -4,3 +4,5 @@
 3) When the time book is issued, it checks
     1) First check whether the book is available in the library using isbn number.
     2) If the book exist, then check the stocks
+4) JUnit Tests: Test the behavior of APIs and service logic.
+5) Used H2 Database as an In-Memory Database in Spring Boot
